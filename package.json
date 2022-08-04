@@ -22,6 +22,8 @@
     "debug": "4.3.2",
     "express": "4.17.1",
     "express-session": "1.17.2",
+    "fs-extra": "10.1.0",
+    "mkdirp": "1.0.4",
     "shell-quote": "1.7.3"
   },
   "engines": {
