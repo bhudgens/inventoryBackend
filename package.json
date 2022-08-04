@@ -1,9 +1,9 @@
 {
-  "name": "inventoryBackend",
+  "name": "inventory-backend",
   "version": "1.0.0",
   "description": "Backend for inventory system",
   "scripts": {
-    "start": "node ./bin/server.js"
+    "start": "node ./src/server.js"
   },
   "repository": {
     "type": "git",
