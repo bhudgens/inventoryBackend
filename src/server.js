@@ -6,7 +6,7 @@ const mkdirp = require('mkdirp');
 
 const { PORT } = process.env;
 
-const _port = PORT || 3000;
+const _port = PORT || 4000;
 /** Configure our body Parser */
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
