@@ -1,0 +1,31 @@
+{
+  "name": "inventoryBackend",
+  "version": "1.0.0",
+  "description": "Backend for inventory system",
+  "scripts": {
+    "start": "node ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhudgens/inventoryBackend.git"
+  },
+  "author": "Benjamin Hudgens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhudgens/inventoryBackend/issues"
+  },
+  "homepage": "https://github.com/bhudgens/inventoryBackend#readme",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "colors": "1.4.0",
+    "cookie-parser": "1.4.5",
+    "debug": "4.3.2",
+    "express": "4.17.1",
+    "express-session": "1.17.2",
+    "shell-quote": "1.7.3"
+  },
+  "engines": {
+    "node": "10.15.1",
+    "npm": "6.4.1"
+  }
+}
