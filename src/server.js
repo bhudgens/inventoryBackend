@@ -18,6 +18,7 @@ const UTF8 = 'utf8';
  * Route Handlers
  ********************************************************************/
 
+app.use('/', express.static(`${__dirname}/../public`));
 app.use('/files', express.static(`${__dirname}/../public`));
 
 const status = { start: new Date() };
